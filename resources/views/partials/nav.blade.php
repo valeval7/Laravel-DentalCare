@@ -43,7 +43,7 @@
 
   <header class="sticky top-0 z-20 mb-5 mt-5 hidden lg:block">
     <div
-      class="Menu2 flex justify-between items-center border-[3px] border-[#7ba5c3] px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 rounded-full shadow-md">
+      class="Menu2 flex justify-between items-center border-[3px] border-[#7ba5c3] px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 rounded-full shadow-md bg-white ">
       <a href="{{ route('inicio') }}">
         <img
           src="https://raw.githubusercontent.com/valeval7/Practicas/6df9610117feb8eb1597c6999923c24b514a291e/12%20Desarrollo%20de%20Página%20Web/Resources/DentalCare.svg"
