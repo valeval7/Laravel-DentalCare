@@ -7,9 +7,9 @@ Route::get('/', function () {
 });
 
 
-// Route::get('/', function () {
-//   return view('principal.index');
-// })->name('inicio');
+Route::get('/', function () {
+  return view('principal.index');
+});
 
 Route::get('/redirigir', function () {
   return redirect()->route('inicio');
