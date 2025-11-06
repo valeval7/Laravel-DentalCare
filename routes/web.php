@@ -3,17 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-  return view('principal.index');
+  return view('Principal.index');
 })->name('inicio');
 
-Route::get('/redirigir', function () {
-  return redirect()->route('inicio');
-});
-
 Route::get('/sonrisa', function () {
-  return view('principal.sonrisa');
+  return view('Principal.sonrisa');
 })->name('sonrisa');
 
 Route::get('/agendar', function () {
-  return view('principal.agendar');
+  return view('Principal.agendar');
 })->name('agendar');
