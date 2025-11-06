@@ -3,8 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-  return view('principal.index');
-})->name('inicio');
+  return 'Laravel está funcionando sin vistas ni BD';
+});
+
+
+// Route::get('/', function () {
+//   return view('principal.index');
+// })->name('inicio');
 
 Route::get('/redirigir', function () {
   return redirect()->route('inicio');
