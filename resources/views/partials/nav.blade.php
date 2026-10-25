@@ -32,10 +32,10 @@
         <nav class="flex flex-col gap-3">
           <a
             href="{{ route('sonrisa') }}"
-            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Tu Sonrisa</a>
+            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Your Sonrise</a>
           <a
             href="{{ route('agendar') }}"
-            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Agendar</a>
+            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Book an Appointment</a>
         </nav>
       </div>
     </div>
@@ -54,10 +54,10 @@
       <nav class="hidden lg:flex gap-6 xl:gap-8">
         <a
           href="{{ route('sonrisa') }}"
-          class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Tu Sonrisa</a>
+          class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Your Sonrise</a>
         <a
           href="{{ route('agendar') }}"
-          class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Agendar</a>
+          class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Book an Appointment</a>
       </nav>
 
       <button
@@ -72,10 +72,10 @@
         <nav class="flex flex-col gap-3">
           <a
             href="{{ route('sonrisa') }}"
-            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Tu Sonrisa</a>
+            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Your Sonrise</a>
           <a
             href="{{ route('agendar') }}"
-            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Agendar</a>
+            class="text-[#5175A0] hover:text-[#5DABDA] font-semibold transition-colors">Book an Appointment</a>
         </nav>
       </div>
     </div>
